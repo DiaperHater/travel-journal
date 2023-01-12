@@ -1,8 +1,10 @@
+import Header from './components/Header'
+
 export default function App() {
 
   return (
     <div>
-      App
+      <Header icon="icon-globe.svg" title="my travel journal."/>
     </div>
   )
 }
