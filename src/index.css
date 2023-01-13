@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+section {
+    @apply py-[50px];
+}
+
+.wrapper {
+    @apply w-[800px] max-w-full mx-auto px-[40px];
+}
